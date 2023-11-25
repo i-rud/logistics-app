@@ -1,0 +1,140 @@
+
+.head {
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f9fafe;
+}
+
+.menu {
+    text-align: center;
+    background-color: #2b2d42;
+    grid-row: 1 / 10;
+    padding-top: 100px;
+    box-shadow: 30px 0 30px -30px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    background-color: #f9fafe;
+    box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.2);
+    grid-row: 1 / 10;
+    grid-column: 2 / 6;
+}
+
+.menu-button {
+    width: 100%;
+    background-color: #2b2d42;
+    border: 0 solid;
+    font-size: 16pt;
+    height: 50px;
+    color: #faf9f9;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+}
+
+.menu-button:hover {
+    background-color: #353852;
+    transition-duration: 0.2s;
+}
+
+.menu-button-clicked {
+    width: 100%;
+    background-color: #4460ef;
+    border: 0 solid;
+    font-size: 16pt;
+    height: 50px;
+    color: #faf9f9;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    font-family: Montserrat, sans-serif;
+}
+
+.plate {
+    background-color: white;
+    margin: 20px auto auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    width: 700px;
+    height: 70px;
+    border-radius: 7px;
+    padding: 22px;
+}
+
+.error-content {
+    width: 900px;
+    margin: 150px auto auto;
+    text-align: center;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.error-header {
+    font-weight: bold;
+    font-size: 100px;
+    color: #ced4da;
+    display: inline-block;
+}
+
+.error-message {
+    margin-top: 50px;
+    font-size: 30px;
+    color: #212529
+}
+
+.back-button {
+    margin-top: 50px;
+}
+
+.login-form {
+    margin: auto;
+    width: 350px;
+}
+
+#right-panel {
+    font-family: "Roboto", sans-serif;
+    line-height: 30px;
+    padding-left: 10px;
+}
+
+#right-panel select,
+#right-panel input {
+    font-size: 15px;
+}
+
+#right-panel select {
+    width: 100%;
+}
+
+#right-panel i {
+    font-size: 12px;
+}
+
+#map {
+    height: 90%;
+    margin: auto;
+    width: 100%;
+}
+
+#right-panel {
+    float: right;
+    width: 34%;
+    height: 100%;
+}
+
+.panel {
+    height: 100%;
+    overflow: auto;
+}
+
+
+

@@ -1,0 +1,29 @@
+version: '3'
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: logidb
+    ports:
+      - "3307:3306"
+
+  rabbitmq:
+    image: rabbitmq
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  web:
+    depends_on:
+      - db
+      - rabbitmq
+    image: tomcat
+    volumes:
+      - ./target/logiweb.war:/usr/local/tomcat/webapps/logiweb.war
+    build: .
+    ports:
+      - "8085:8080"
+
+volumes:
+  datavolume:

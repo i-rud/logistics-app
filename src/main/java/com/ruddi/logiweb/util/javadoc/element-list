@@ -1,0 +1,16 @@
+com.ruddi.logiweb.bl
+com.ruddi.logiweb.config
+com.ruddi.logiweb.controller
+com.ruddi.logiweb.controller.rest
+com.ruddi.logiweb.dao.api
+com.ruddi.logiweb.dao.impl
+com.ruddi.logiweb.dto
+com.ruddi.logiweb.exception.exceptions
+com.ruddi.logiweb.exception.handling
+com.ruddi.logiweb.init
+com.ruddi.logiweb.model
+com.ruddi.logiweb.model.rest
+com.ruddi.logiweb.service
+com.ruddi.logiweb.service.api
+com.ruddi.logiweb.service.impl
+com.ruddi.logiweb.telegram
